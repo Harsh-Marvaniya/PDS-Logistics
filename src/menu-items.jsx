@@ -2,7 +2,6 @@ const menuItems = {
   items: [
     {
       id: 'navigation',
-      title: 'Navigation',
       type: 'group',
       icon: 'icon-navigation',
       children: [
@@ -113,7 +112,6 @@ const menuItems = {
     // },
     {
       id: 'pages',
-      title: 'Pages',
       type: 'group',
       icon: 'icon-pages',
       children: [

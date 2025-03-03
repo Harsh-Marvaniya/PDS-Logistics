@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Card, Table, Tabs, Tab } from 'react-bootstrap';
+import { Row, Col, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import avatar1 from '../../assets/images/user/avatar-1.jpg';
@@ -7,9 +7,9 @@ import avatar2 from '../../assets/images/user/avatar-2.jpg';
 import avatar3 from '../../assets/images/user/avatar-3.jpg';
 
 const dashSalesData = [
-  { title: 'Daily Sales', amount: '$249.95', icon: 'icon-arrow-up text-c-green', value: 50, class: 'progress-c-theme' },
-  { title: 'Monthly Sales', amount: '$2.942.32', icon: 'icon-arrow-down text-c-red', value: 36, class: 'progress-c-theme2' },
-  { title: 'Yearly Sales', amount: '$8.638.32', icon: 'icon-arrow-up text-c-green', value: 70, color: 'progress-c-theme' }
+  // { title: 'Daily Sales', amount: '$249.95', icon: 'icon-arrow-up text-c-green', value: 50, class: 'progress-c-theme' },
+  // { title: 'Monthly Sales', amount: '$2.942.32', icon: 'icon-arrow-down text-c-red', value: 36, class: 'progress-c-theme2' },
+  // { title: 'Yearly Sales', amount: '$8.638.32', icon: 'icon-arrow-up text-c-green', value: 70, color: 'progress-c-theme' }
 ];
 
 const DashDefault = () => {
@@ -137,10 +137,10 @@ const DashDefault = () => {
         })}
         <Col md={6} xl={8}>
           <Card className="Recent-Users widget-focus-lg">
-            <Card.Header>
-              <Card.Title as="h5">Recent Users</Card.Title>
-            </Card.Header>
-            <Card.Body className="px-0 py-2">
+            {/* <Card.Header>
+              {/* <Card.Title as="h5">Recent Users</Card.Title> */}
+            {/* </Card.Header> */}
+            {/* <Card.Body className="px-0 py-2">
               <Table responsive hover className="recent-users">
                 <tbody>
                   <tr className="unread">
@@ -259,12 +259,12 @@ const DashDefault = () => {
                   </tr>
                 </tbody>
               </Table>
-            </Card.Body>
+            </Card.Body> */}
           </Card>
         </Col>
         <Col md={6} xl={4}>
           <Card className="card-event">
-            <Card.Body>
+            {/* <Card.Body>
               <div className="row align-items-center justify-content-center">
                 <div className="col">
                   <h5 className="m-0">Upcoming Event</h5>
@@ -278,10 +278,10 @@ const DashDefault = () => {
               </h2>
               <h6 className="text-muted mt-3 mb-0">You can participate in event </h6>
               <i className="fab fa-angellist text-c-purple f-50" />
-            </Card.Body>
+            </Card.Body> */}
           </Card>
           <Card>
-            <Card.Body className="border-bottom">
+            {/* <Card.Body className="border-bottom">
               <div className="row d-flex align-items-center">
                 <div className="col-auto">
                   <i className="feather icon-zap f-30 text-c-green" />
@@ -302,12 +302,12 @@ const DashDefault = () => {
                   <span className="d-block text-uppercase">total locations</span>
                 </div>
               </div>
-            </Card.Body>
+            </Card.Body> */}
           </Card>
         </Col>
         <Col md={6} xl={4}>
           <Card className="card-social">
-            <Card.Body className="border-bottom">
+            {/* <Card.Body className="border-bottom">
               <div className="row align-items-center justify-content-center">
                 <div className="col-auto">
                   <i className="fab fa-facebook-f text-primary f-36" />
@@ -319,8 +319,8 @@ const DashDefault = () => {
                   </h5>
                 </div>
               </div>
-            </Card.Body>
-            <Card.Body>
+            </Card.Body> */}
+            {/* <Card.Body>
               <div className="row align-items-center justify-content-center card-active">
                 <div className="col-6">
                   <h6 className="text-center m-b-10">
@@ -353,12 +353,12 @@ const DashDefault = () => {
                   </div>
                 </div>
               </div>
-            </Card.Body>
+            </Card.Body> */}
           </Card>
         </Col>
         <Col md={6} xl={4}>
           <Card className="card-social">
-            <Card.Body className="border-bottom">
+            {/* <Card.Body className="border-bottom">
               <div className="row align-items-center justify-content-center">
                 <div className="col-auto">
                   <i className="fab fa-twitter text-c-blue f-36" />
@@ -370,8 +370,8 @@ const DashDefault = () => {
                   </h5>
                 </div>
               </div>
-            </Card.Body>
-            <Card.Body>
+            </Card.Body> */}
+            {/* <Card.Body>
               <div className="row align-items-center justify-content-center card-active">
                 <div className="col-6">
                   <h6 className="text-center m-b-10">
@@ -404,12 +404,12 @@ const DashDefault = () => {
                   </div>
                 </div>
               </div>
-            </Card.Body>
+            </Card.Body> */}
           </Card>
         </Col>
         <Col xl={4}>
           <Card className="card-social">
-            <Card.Body className="border-bottom">
+            {/* <Card.Body className="border-bottom">
               <div className="row align-items-center justify-content-center">
                 <div className="col-auto">
                   <i className="fab fa-google-plus-g text-c-red f-36" />
@@ -421,8 +421,8 @@ const DashDefault = () => {
                   </h5>
                 </div>
               </div>
-            </Card.Body>
-            <Card.Body>
+            </Card.Body> */}
+            {/* <Card.Body>
               <div className="row align-items-center justify-content-center card-active">
                 <div className="col-6">
                   <h6 className="text-center m-b-10">
@@ -455,15 +455,15 @@ const DashDefault = () => {
                   </div>
                 </div>
               </div>
-            </Card.Body>
+            </Card.Body> */}
           </Card>
         </Col>
         <Col md={6} xl={4}>
           <Card>
-            <Card.Header>
+            {/* <Card.Header>
               <Card.Title as="h5">Rating</Card.Title>
-            </Card.Header>
-            <Card.Body>
+            </Card.Header> */}
+            {/* <Card.Body>
               <div className="row align-items-center justify-content-center m-b-20">
                 <div className="col-6">
                   <h2 className="f-w-300 d-flex align-items-center float-start m-0">
@@ -562,11 +562,11 @@ const DashDefault = () => {
                   </div>
                 </div>
               </div>
-            </Card.Body>
+            </Card.Body> */}
           </Card>
         </Col>
         <Col md={6} xl={8} className="user-activity">
-          <Card>
+          {/* <Card>
             <Tabs defaultActiveKey="today" id="uncontrolled-tab-example">
               <Tab eventKey="today" title="Today">
                 {tabContent}
@@ -578,7 +578,7 @@ const DashDefault = () => {
                 {tabContent}
               </Tab>
             </Tabs>
-          </Card>
+          </Card> */}
         </Col>
       </Row>
     </React.Fragment>
